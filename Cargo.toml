@@ -1,0 +1,18 @@
+[package]
+name = "rsreit"
+version = "0.1.0"
+edition = "2021"
+description = """
+Hex editor
+"""
+
+[dependencies]
+rand = "0.8"
+tui = "0.18.0"
+tui-textarea = "*"
+crossterm = { version = "0.23", optional = false }
+byteorder = "*"
+safe-transmute = "*"
+iced-x86 = "*"
+clap = { version = "3.2", features = ["cargo"] }
+memmem = "*"
